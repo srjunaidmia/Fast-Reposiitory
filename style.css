@@ -1,4 +1,106 @@
-body{
-    background-color: bisque;
+/* header,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.logo{
+    height: 80px;
+    width: 80px;
+    }
+.nev{
+    background-color: rgb(0, 157, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+}
+ul{
+    display: inline;   
+    align-content: end;
+}
+li{
+    display: inline ;
+    padding: 5px;
+   
+    
+}
+a{
+ text-decoration:none;
+ color: #FFF;
+}
+a:hover{
     color: black;
 }
+/* banner................................. */
+
+.banner{
+    background-color: #b2b2b2;
+    background-image: url(Images/Project1.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:500px;
+    width: auto;
+    margin-top: -50px;
+    
+}
+
+
+.h2{
+    color: #1500ff;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 100px;
+    }
+
+    .p1{
+    color: #ffffff;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    }
+
+/* body.................................... */
+body{
+    margin: 0px;
+    }
+
+.content{
+    display: inline;
+    
+}
+
+
+
+.blgoh2{
+    margin-top: -20px;
+}
+
+.p2{
+    border: 1px;
+    border-style: solid;
+    background-color: rgb(216, 216, 216);
+    border-color: rgb(146, 146, 146);
+    border-radius: 4px;
+    padding: 20px;
+    width: 27%;
+    display: inline-block;
+    border-bottom: 20px solid rgb(255, 115, 0);
+    box-shadow: 10px 10px 10px;
+    margin: 20px;  
+    
+    }
+    .p2:hover{
+        background-color: rgb(255, 255, 255);
+    }
+
+#short{
+    background-color: aliceblue;
+    border-bottom: 20px solid rgb(0, 157, 255);
+    box-shadow: 10px 10px 10px;
+    margin: 10px;
+    }
+
+    #short:hover{
+        background-color: rgb(255, 255, 255);
+    }
